@@ -6,9 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section>
+        <div class="container">
+            <div>
+                <h1>Your Password Generator!</h1>
+                <textarea></textarea>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                </svg>
+                <div class="length">
+                    <label for="">Lenght of Password</label>
+                    <input type ="range" >
+                    <input type ="number" id="number">
+                </div>
+            </div>
+            <div class="include">
+                <label for="">Include uppercase letters</label>
+                <input type ="checkbox" class="checkbox">
+
+                <label for="">Include lowercase letters</label>
+                <input type ="checkbox" class="checkbox">
+
+                <label for="">Include symbols</label>
+                <input type ="checkbox" class="checkbox">
+
+                <label for="">Include numbers</label>
+                <input type ="checkbox" class="checkbox">
     
+            </div>
+            <button>Generate!</button>
+        </div>
+    </section>
 </body>
 <script src="script.js"></script>
 </html>

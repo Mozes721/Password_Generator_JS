@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: rgb(93, 143, 189);
+}
+
+section {
+  border: 10px solid rgb(31, 48, 80);
+  height: 96vh;
+  position: relative;
+}
+
+.container {
+    border: 2px solid rgb(26, 22, 95);
+    max-width: 500px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 25px;
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+
+h1 {
+    color: rgb(198, 197, 218);
+    font-family: 'Orelega One', cursive;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    overflow: auto;
+    width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box; 
+     background-color: #22429b;
+    color: #fff;
+    font-size: 20px;
+}
+
+svg {
+    position: absolute;
+    color: rgb(37, 23, 23);
+    font: bold;
+    right: 40px;
+    cursor: pointer;
+    top: 110px;
+}
+svg:hover {
+    fill:antiquewhite;
+}
+
+#number {
+    width: 3rem;
+}
+.length {
+    font-size: 20px;
+    color: wheat;
+}
+
+.include {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: wheat;
+    font-size: 20px;
+}
+.checkbox {
+    display: inline-block;
+    float: right;
+}
