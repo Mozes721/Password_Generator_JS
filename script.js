@@ -1,6 +1,7 @@
 // Form
 const form = document.getElementById('passwordGeneratorForm');
 // get all input types 
+
 const characterRange = document.getElementById('slider-range');
 const characterUppercase = document.getElementById('uppercase');
 const characterLowercase = document.getElementById('lowercase');
