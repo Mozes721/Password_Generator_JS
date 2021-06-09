@@ -32,7 +32,6 @@ const generatePassword = (lenght, characters) => {
   }
   return password;
 };
-
 copyClipboard.addEventListener('click', () => {
   const textarea = document.createElement('textarea');
   
@@ -45,7 +44,7 @@ copyClipboard.addEventListener('click', () => {
 
   document.body.appendChild(textarea);
 	textarea.select();
-
+	
   document.execCommand('copy');
 	textarea.remove();
 	alert('Password copied to clipboard');
