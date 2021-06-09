@@ -6,7 +6,6 @@ const passwordDisplay = document.getElementById("passwordDisplay");
 // copy to clipboard
 const copyClipboard = document.getElementById("CopyToClipBoard");
 
-
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "0123456789";
