@@ -84,6 +84,7 @@ svg:hover {
     border-radius: 1rem;
     margin-top: 0.5rem;
     padding: 1rem;
+    width: 100%;
 }
 
 .generate-password:hover {
