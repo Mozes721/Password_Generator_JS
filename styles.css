@@ -6,7 +6,6 @@ section {
   border: 10px solid rgb(31, 48, 80);
   height: 96vh;
 }
-
 .form {
     display: grid;
 }
